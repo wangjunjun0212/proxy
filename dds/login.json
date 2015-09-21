@@ -1,0 +1,14 @@
+{
+  "header": {
+    "errorCode": 0
+  },
+  "data": {
+    "sessionId": "@INT(1)",
+    "user": {
+      "id|+1": 1,
+      "userId": "@LAST",
+      "userName": "@FIRST @LAST",
+      "role|1": ["用户", "管理员"]
+    }
+  }
+}

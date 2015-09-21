@@ -1,0 +1,81 @@
+{
+  "header": {
+    "errorCode": 0
+  },
+  "data": [{
+    "id":2,
+    "name": "客户管理",
+    "open": false,
+    "alias": "customer",
+    "subname": [{
+        "id":103,
+        "name": "客户列表",
+        "path": "customer"
+      }
+    ]
+  }, {
+    "id":3,
+    "name": "司机管理",
+    "open": false,
+    "alias": "driver",
+    "subname": [{
+        "id":104,
+        "name": "司机列表",
+        "path": "driver"
+      }
+
+    ]
+  }, {
+    "id":4,
+    "name": "订单管理",
+    "open": false,
+    "alias": "order",
+    "subname": [{
+        "id":105,
+        "name": "订单列表",
+        "path": "order"
+      }, {
+        "id":106,
+        "name": "月度统计",
+        "path": "month-ord"
+      }, {
+        "id":107,
+        "name": "季度统计",
+        "path": "quarter-ord"
+      }, {
+        "id":108,
+        "name": "时间段统计",
+        "path": "time-ord"
+      }
+    ]
+  }, {
+    "id":5,
+    "name": "计费管理",
+    "open": false,
+    "alias": "rule",
+    "subname": [{
+      "id":129,
+      "name": "计费模板",
+      "path": "template"
+    }, {
+      "id":109,
+      "name": "计费规则",
+      "path": "rule"
+    }]
+  }, {
+    "id":1,
+    "name": "系统设置",
+    "open": false,
+    "alias": "setting",
+    "subname": [{
+        "id":100,
+        "name": "用户管理",
+        "path": "user"
+      }, {
+        "id":101,
+        "name": "角色管理",
+        "path": "role"
+      }
+    ]
+  }]
+}

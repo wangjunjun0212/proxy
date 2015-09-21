@@ -1,0 +1,7 @@
+#############
+## file
+#############
+.idea
+node_modules
+.DS_Store
+201*.txt

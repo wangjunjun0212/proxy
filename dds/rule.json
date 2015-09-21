@@ -1,0 +1,29 @@
+{
+  "header": {
+    "errorCode": 0
+  },
+  "data": {
+    "code": 0,
+    "pageNum|1-20":1,
+    "total":100,
+    "pageNum": 1,
+    "pageSize": 20,
+    "rules|9": [{
+      "id|+1": 1,
+      "ruleNo":"GZ00@id",
+      "tempNo":"MB00@id",
+      "provinceName": "东北",
+      "cityName": "武汉",
+      "provinceId":1,
+      "cityId":100,
+      "openTime": "@DATE",
+      "closeTime": "@DATE",
+      "status|0-1": 0,
+      "cityStr":"106,107,114",
+      "description|2-100": "描",
+      "editFlag|1":true,
+      "editStatusFlag|1":true,
+      "arrayStr": "1,5,40,50;5,10,20,40;10,13,30,30"
+    }]
+  }
+}

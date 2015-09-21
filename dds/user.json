@@ -1,0 +1,25 @@
+{
+  "header": {
+    "errorCode": 0
+  },
+  "data": {
+    "pageNum|1-20": 1,
+    "total": 300,
+    "users|10": [{
+      "id|+1": 1,
+      "loginName": "@LAST",
+      "userName": "@FIRST",
+      "email":"@EMAIL",
+      "mobilePhone":"13399833873",
+      "roleId|1": [1,2,3,4],
+      "role": {
+        "id|1": [1,2,3,4],
+        "roleName|1": ["用户", "管理员"],
+        "createTime": "@DATE @TIME",
+        "updateTime": "@DATE @TIME"
+      },
+      "description": "用户描述",
+      "createTime": "@DATE @TIME"
+    }]
+  }
+}

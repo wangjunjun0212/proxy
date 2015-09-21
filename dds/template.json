@@ -1,0 +1,20 @@
+{
+  "header": {
+    "errorCode": 0
+  },
+  "data": {
+    "code": 0,
+    "pageNum|1-20":1,
+    "total":100,
+    "templates|9": [{
+      "id|+1": 1,
+      "tempNo": "MB00@id",
+      "tempName": "一线城市",
+      "description": "适用于一线城市",
+      "openTime": "@DATE",
+      "closeTime": "@DATE",
+      "status|0-1": 0,
+      "arrayStr": "1,5,40,50;5,10,20,40;10,13,30,30"
+    }]
+  }
+}

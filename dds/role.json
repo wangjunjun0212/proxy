@@ -1,0 +1,17 @@
+{
+  "header": {
+    "errorCode": 0
+  },
+  "data": {
+    "pageNum|1-20": 1,
+    "total": 20,
+    "roles|4": [{
+      "id|+1": 1,
+      "menuIds":"1,2,100,101,102,103",
+      "menuIdArray":[1,2,100,101,102,103],
+      "roleName": "@FIRST",
+      "description": "角色描述",
+      "createTime": "@DATE @TIME"
+    }]
+  }
+}

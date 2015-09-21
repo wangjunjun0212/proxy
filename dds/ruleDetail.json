@@ -1,0 +1,18 @@
+{
+  "header": {
+    "errorCode": 0
+  },
+  "data": {
+    "code": 0,
+    "message": "",
+    "ruleDetails|5": [{
+      "id|+1":1,
+      "detailNo": "GZ0001",
+      "ruleNo": "GZ001",
+      "ruleStartTime": "@DATE @TIME",
+      "ruleEndTime": "@DATE @TIME",
+      "ruleStartPrice|20-30": 20,
+      "ruleExtraPrice|40-100": 50
+    }]
+  }
+}

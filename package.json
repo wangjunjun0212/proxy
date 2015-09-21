@@ -1,0 +1,32 @@
+{
+  "name": "glob-proxy",
+  "version": "0.0.7",
+  "description": "HTTP proxying",
+  "main": "./src/glob-proxy.js",
+  "bin":{
+    "glob":"./bin/glob"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mockjs": "^0.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/lcepy/glob-proxy.git"
+  },
+  "keywords": [
+    "http-proxy"
+  ],
+  "author": "wen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lcepy/glob-proxy/issues"
+  },
+  "homepage": "https://github.com/lcepy/glob-proxy"
+}

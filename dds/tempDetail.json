@@ -1,0 +1,18 @@
+{
+  "header": {
+    "errorCode": 0
+  },
+  "data": {
+    "code": 0,
+    "message": "",
+    "templateDetails|5": [{
+      "id:|+1":100,
+      "tempNo":"MB0001",
+      "detailNo":"MX0001", 
+      "ruleStartTime|0-12": 1,
+      "ruleEndTime|13-23": 14,
+      "ruleStartPrice|20-30": 20,
+      "ruleExtraPrice|30-80": 68
+    }]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "respCode": "000000",
+  "memo": "memo",
+  "carId|50-100": 60,
+  "carPicUrl": "@img(200x200, #000, #fff, @word)",
+  "carModel|1": ["Santana", "Turan", "Lavida", "Tiguan"],
+  "versions": ["ver1", "ver2", "ver3"]
+}

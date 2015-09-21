@@ -8,9 +8,9 @@
 ## Use
 新建 js 文件， 例如：
 
-  $ touch index.js   
+    $ touch index.js   
 
-Mac OSX 用户参考如下:
+Mac OSX 用户参考如下：
 
 	var glob = require('./src/glob-proxy');
 

@@ -84,8 +84,8 @@ var Guider = function(config) {
  * */
 Guider.prototype.start = function() {
   var self = this;
-  console.log('start server 127.0.0.1 : ', this.PORT);
-  console.log('version : ', '0.0.5');
+  console.log('start server 127.0.0.1:', this.PORT);
+  console.log('version : ', '0.0.7');
   var server = http.createServer(function(request, response) {
     self.request = request;
     self.response = response;
@@ -280,9 +280,9 @@ Guider.prototype.responseHeader = function() {
   this.response.writeHead('200', {
     'Access-Control-Allow-Headers': 'Content-Type, Accept, Authorization',
     'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE',
-    // 'Access-Control-Allow-Origin': 'http://localhost:9000',
+    //'Access-Control-Allow-Origin': 'http://localhost:9000',
     'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Credentials': true,
+    //'Access-Control-Allow-Credentials': true,
     'Access-Control-Max-Age': 30 * 24 * 3600
   });
 }

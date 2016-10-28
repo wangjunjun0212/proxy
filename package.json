@@ -10,7 +10,7 @@
     "test": "test"
   },
   "dependencies": {
-    "mockjs": "^0.1.1"
+    "mockjs": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {

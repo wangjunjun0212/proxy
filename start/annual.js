@@ -1,5 +1,5 @@
-var glob = require('./src/glob-proxy');
-var path = '/data/annual';
+var glob = require('../src/glob-proxy');
+var path = '../data/annual';
 
 glob.use('PORT', '8084');
 glob.use('TYPE', 'HTTP');

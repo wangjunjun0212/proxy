@@ -6,8 +6,10 @@ glob.use('TYPE', 'HTTP');
 glob.use('ROOT', __dirname);
 glob.use('REQUEST', {
   'GET': {
-    '/fanacing': path + '/fanacing.json'
+    '/fanacing': path + '/fanacing.json',
+    '/login': path + '/login.json'
   },
-  'POST': {}
+  'POST': {
+  }
 });
 glob.initialize();

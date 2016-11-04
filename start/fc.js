@@ -8,8 +8,10 @@ glob.use('REQUEST', {
   'GET': {
     '/fanacing': path + '/fanacing.json',
     '/orderfinance': path + '/orderfinance.json',
-    '/orderFinanceInit': path + '/orderFinanceInit.json'
+    '/orderFinanceInit': path + '/orderFinanceInit.json',
+    '/login': path + '/login.json'
   },
-  'POST': {}
+  'POST': {
+  }
 });
 glob.initialize();

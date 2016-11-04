@@ -278,7 +278,7 @@ Guider.prototype.error = function() {
  * */
 Guider.prototype.responseHeader = function() {
   this.response.writeHead('200', {
-    'Access-Control-Allow-Headers': 'Content-Type, Accept, Authorization',
+    'Access-Control-Allow-Headers': 'Content-Type, Accept, jwt-token',
     'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE',
     //'Access-Control-Allow-Origin': 'http://localhost:9000',
     'Access-Control-Allow-Origin': '*',

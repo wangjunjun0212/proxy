@@ -19,12 +19,12 @@
 
 
 ## Use
-新建index.js文件    
+新建index.js文件
 
-    touch index.js   
+    touch index.js
 
-(windows 用户参考如下)	
-    
+(windows 用户参考如下)
+
     var glob = require('./src/glob-proxy');
 
 	glob.use('PORT','8084');
@@ -69,7 +69,7 @@ glob.initialize()  启动
 ## Client
 
 客户端必要的条件
-	
+
 1. 是一款现代的浏览器，支持H5请求跨域头。
 
 'Access-Control-Allow-Headers':'Content-Type, Accept',
@@ -85,7 +85,7 @@ glob.initialize()  启动
 >
 >PORT start server port 启动服务器端口号
 >
->TYPE 处理请求时，按什么类型来处理	
+>TYPE 处理请求时，按什么类型来处理
 >
 >ROOT 配置读取本地文件的跟目录
 >
@@ -105,13 +105,7 @@ glob.initialize()  启动
 
 未来改进：
 
-	
+
 1. 支持restful风格的其他method，如PUT DELETE
 2. 支持从后台提交SOAP
 3. 指定静态资源
-
-
-
-
-
-

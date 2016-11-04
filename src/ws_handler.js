@@ -16,6 +16,6 @@ process.on('message',function(m,n){
 			process.stdout.write('参数错误');
 			return;
 		}
-		
+
 	}
 });

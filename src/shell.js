@@ -23,7 +23,7 @@ shell.exit = function(){
                     if(g[0]==='y'){
                         process.exit();
                         return;
-                    } 
+                    }
                 }
                 stage = true;
                 process.stdout.write('you can to do something \n');

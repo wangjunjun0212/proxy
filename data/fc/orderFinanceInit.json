@@ -1,55 +1,23 @@
 {
-    "code": 0,
-    "msg": null,
-    "data": {
-        "creditAmount": "10000000.00",
-        "products": [{
-            "financeProdLevelId": "20161031150001",
-            "financeDeadline": 30,
-            "financeDeadlineUnit": " ?",
-            "financeProductRate": "0.06000",
-            "repaymentMethod": "0001",
-            "marginRatio": "0.70000",
-            "financeProductName": "0~30 ?"
-        }, {
-            "financeProdLevelId": "20161031150002",
-            "financeDeadline": 60,
-            "financeDeadlineUnit": " ?",
-            "financeProductRate": "0.03000",
-            "repaymentMethod": "0002",
-            "marginRatio": "0.80000",
-            "financeProductName": "30~60 ?"
-        }, {
-            "financeProdLevelId": "20161031150003",
-            "financeDeadline": 90,
-            "financeDeadlineUnit": " ?",
-            "financeProductRate": "0.00060",
-            "repaymentMethod": "0002",
-            "marginRatio": "0.90000",
-            "financeProductName": "60~90 ?"
-        }, {
-            "financeProdLevelId": "20161031150004",
-            "financeDeadline": 3,
-            "financeDeadlineUnit": " ?",
-            "financeProductRate": "0.00060",
-            "repaymentMethod": "0001",
-            "marginRatio": "0.00080",
-            "financeProductName": null
-        }, {
-            "financeProdLevelId": "20161031150005",
-            "financeDeadline": 4,
-            "financeDeadlineUnit": " ?",
-            "financeProductRate": "0.00060",
-            "repaymentMethod": "0001",
-            "marginRatio": "0.00090",
-            "financeProductName": null
-        }],
-        "repaymentMethods": [{
-            "code": "0001",
-            "name": "到期还本付息"
-        }, {
-            "code": "0002",
-            "name": "等额本息"
-        }]
-    }
+  "respCode": "0",
+  "msg": "bla",
+  "data": {
+    "creditAmount": "10000000.00",
+    "products|4": [{
+      "financeProdLevelId|+1": 20161031150001,
+      "financeDeadline": 30,
+      "financeDeadlineUnit": "天",
+      "financeProductRate|0.2-4": 0.00,
+      "repaymentMethod": "0001",
+      "marginRatio|0.3": 0,
+      "financeProductName|1": ["0~30天", "30~60天", "60~90天"]
+    }],
+    "repaymentMethods": [{
+      "code": "0001",
+      "name": "到期还本付息"
+    }, {
+      "code": "0002",
+      "name": "等额本息"
+    }]
+  }
 }

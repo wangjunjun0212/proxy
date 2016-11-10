@@ -1,0 +1,43 @@
+{
+    "respCode": "0",
+    "memo": null,
+    "data": {
+        "customerName": "财拓电子商务有限公司",
+        "customerStatus": "已认证",
+        "customerLogo": "http://d.hiphotos.baidu.com/baike/w%3D268/sign=6696f8342034349b74066983f1eb1521/77094b36acaf2edde07750c7851001e93901931d.jpg",
+        "financeAmount": "1300000",
+        "creditCustomerrResModels": [{
+            "creditCustomerName": "陆金所",
+            "creditAmount": "100000",
+            "useableAmount": "50000"
+        }, {
+            "creditCustomerName": "万象信托",
+            "creditAmount": "200000",
+            "useableAmount": "40000"
+        }, {
+            "creditCustomerName": "铜板街",
+            "creditAmount": "1000000",
+            "useableAmount": "60000"
+        }, {
+            "creditCustomerName": "铜板街",
+            "creditAmount": "1000000",
+            "useableAmount": "60000"
+        }, {
+            "creditCustomerName": "铜板街",
+            "creditAmount": "1000000",
+            "useableAmount": "60000"
+        }, {
+            "creditCustomerName": "铜板街",
+            "creditAmount": "1000000",
+            "useableAmount": "60000"
+        }, {
+            "creditCustomerName": "铜板街",
+            "creditAmount": "1000000",
+            "useableAmount": "60000"
+        }, {
+            "creditCustomerName": "铜板街",
+            "creditAmount": "1000000",
+            "useableAmount": "60000"
+        }]
+    }
+}

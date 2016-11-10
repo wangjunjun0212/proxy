@@ -9,7 +9,10 @@ glob.use('REQUEST', {
     '/fanacing': path + '/fanacing.json',
     '/orderfinance': path + '/orderfinance.json',
     '/orderFinanceInit': path + '/orderFinanceInit.json',
-    '/login': path + '/login.json'
+    '/login': path + '/login.json',
+    '/financingInfo': path + '/financingInfo.json',
+    '/financeList': path + '/financeList.json',
+    '/repayList': path + '/repayList.json'
   },
   'POST': {
   }

@@ -1,0 +1,30 @@
+{
+    "respCode":"0",
+    "memo":null,
+    "data":[
+        {
+            "totalAmount":"1900",
+            "totalAmountType":"保证金金额"
+        },
+        {
+            "totalAmount":"900",
+            "totalAmountType":"已融资"
+        },
+        {
+            "totalAmount":"900",
+            "totalAmountType":"已还款"
+        },
+        {
+            "totalAmount":"900",
+            "totalAmountType":"未还款"
+        },
+        {
+            "totalAmount":"900",
+            "totalAmountType":"已还利息"
+        },
+        {
+            "totalAmount":"900",
+            "totalAmountType":"未还利息"
+        }
+    ]
+}

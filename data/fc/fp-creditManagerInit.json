@@ -1,0 +1,34 @@
+{
+    "respCode":"0",
+    "memo":null,
+    "data":[
+        {
+            "financialCustName":"陆金所",
+            "creditCustName":"中建八局",
+            "busiSource":"钢源城",
+            "creditTypeName":"应收账款融资",
+            "creditAccountId":"TA000001",
+            "remainAmount":"500",
+            "applyDate":"20170101100000",
+            "creditDate":"@date",
+            "creditAmount":"250",
+            "usedAmount":"100",
+            "marginRatio":"50",
+            "creditStatus":"已授信"
+        },
+        {
+            "financialCustName":"*****",
+            "creditCustName":"中建八局",
+            "busiSource":"钢源城",
+            "creditTypeName":"订单融资",
+            "creditAccountId":"TA000002",
+            "remainAmount":"500",
+            "applyDate":"20170101100000",
+            "creditDate":"@date",
+            "creditAmount":"250",
+            "usedAmount":"100",
+            "marginRatio":"50",
+            "creditStatus":"已授信"
+        }
+    ]
+}

@@ -16,9 +16,17 @@ glob.use('REQUEST', {
     '/ta/financeList': path + '/financeList.json',
     '/ta/repayList': path + '/repayList.json',
     '/ta/acocunts': path + '/acocunts.json',
+    '/ta/repayManager': path + '/repayManager.json',
+    '/ta/finaAppManager': path + '/finaAppManager.json',
+    '/ta/finacialInfo': path + '/finacialInfo.json',
+    '/ta/payList': path + '/payList.json',
+    '/ta/receiveList': path + '/receiveList.json',
+    '/ta/creditList': path + '/creditList.json',
     '/gt/indexInit': path + '/fanacing.json',
     '/bu/orders': path + '/orderfinance.json',
-    '/bu/orderFinanceInit': path + '/orderFinanceInit.json'
+    '/bu/orderFinanceInit': path + '/orderFinanceInit.json',
+    '/ta/enteMembers': path + '/enteMembers.json',
+    '/ta/rece/creditAccoDetails': path + '/fp-creditAccoDetails.json'
   },
   'POST': {
     '/bu/creditApply': path+'/creditApply.json'

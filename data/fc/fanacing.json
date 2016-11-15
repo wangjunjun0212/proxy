@@ -2,24 +2,26 @@
   "respCode": "0",
   "memo": "memo",
   "data": {
-    "receiveFinances|4": [{
-      "financeContractId": "FA0000001",
-      "financeContractName": "应收账款融资-@date",
-      "financeAmount|100-999": 100,
-      "financeRate|3-7.2": 1,
-      "financeDeadline|20-99": 20,
-      "financeDeadlineUnit": "天",
-      "financeStatusName": "放款中"
-    }],
-    "orderFinances|3": [{
-      "financeContractId":"FA0000002",
-      "financeContractName": "订单融资-@date",
-      "financeAmount|100-999": 100,
-      "financeRate|3-7.2": 1,
-      "financeDeadline|20-99": 1,
-      "financeDeadlineUnit": "天",
-      "financeStatusName": "还款中",
-      "limitDays|20-99": 20
-    }]
+    "financeMap": {
+      "financeType0001|4": [{
+        "financeContractId": "FA0000001",
+        "financeContractName": "应收账款融资-@date",
+        "financeAmount|100-999": 100,
+        "financeRate|3-7.2": 1,
+        "financeDeadline|20-99": 20,
+        "financeDeadlineUnit": "天",
+        "financeStatusName": "放款中"
+      }],
+      "financeType0002|3": [{
+        "financeContractId": "FA0000002",
+        "financeContractName": "订单融资-@date",
+        "financeAmount|100-999": 100,
+        "financeRate|3-7.2": 1,
+        "financeDeadline|20-99": 1,
+        "financeDeadlineUnit": "天",
+        "financeStatusName": "还款中",
+        "limitDays|20-99": 20
+      }]
+    }
   }
 }

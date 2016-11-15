@@ -18,7 +18,9 @@ glob.use('REQUEST', {
     '/ta/acocunts': path + '/acocunts.json',
     '/gt/indexInit': path + '/fanacing.json',
     '/bu/orders': path + '/orderfinance.json',
-    '/bu/orderFinanceInit': path + '/orderFinanceInit.json'
+    '/bu/orderFinanceInit': path + '/orderFinanceInit.json',
+    '/ta/enteMembers': path + '/enteMembers.json',
+    '/ta/rece/creditAccoDetails': path + '/fp-creditAccoDetails.json'
   },
   'POST': {
     // '/bu/creditApply':path+'/creditApply.json'

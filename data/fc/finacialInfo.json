@@ -1,0 +1,25 @@
+{
+    "respCode":"0",
+    "memo":"成功",
+    "data":{
+        "customerName":"财拓电子商务有限公司",
+        "customerLogo":"http://d.hiphotos.baidu.com/baike/w%3D268/sign=6696f8342034349b74066983f1eb1521/77094b36acaf2edde07750c7851001e93901931d.jpg",
+        "customerStatus":"已认证",
+        "fundAmount":"30000",
+        "preInterestAmount":"3000",
+        "creditCustomerInfoResModels":[
+            {
+                "creditCustomerName":"陆金所",
+                "creditCustomerLogo":"http://www.baidu.com"
+            },
+            {
+                "creditCustomerName":"万象信托",
+                "creditCustomerLogo":"http://www.google.com"
+            },
+            {
+                "creditCustomerName":"铜板街",
+                "creditCustomerLogo":"http://www.jd.com"
+            }
+        ]
+    }
+}

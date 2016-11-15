@@ -21,7 +21,7 @@ glob.use('REQUEST', {
     '/bu/orderFinanceInit': path + '/orderFinanceInit.json'
   },
   'POST': {
-    // '/bu/creditApply':path+'/creditApply.json'
+    '/bu/creditApply': path+'/creditApply.json'
   }
 });
 glob.initialize();

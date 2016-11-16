@@ -25,7 +25,7 @@ glob.use('REQUEST', {
     '/ta/payManagerInit': path + '/payManagerInit.json',
     '/ta/financeOrders': path + 'financeOrders.json',
     '/ta/receiveManagerInit': path + '/receiveManagerInit.json',
-    '/ta/repayPlans': path + 'repayPlans.json',
+    '/ta/repayPlans': path + '/repayPlans.json',
     '/gt/indexInit': path + '/fanacing.json',
     '/bu/orders': path + '/orderfinance.json',
     '/bu/orderFinanceInit': path + '/orderFinanceInit.json',

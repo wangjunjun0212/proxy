@@ -2,7 +2,7 @@
   "respCode": "0",
   "msg": "bla",
   "data": {
-    "financeType":"002",
+    "financeType":"0002",
     "source":"0001",
     "creditAccountId":"CA0000001",
     "marginRatio|0.3": 0,

@@ -6,12 +6,10 @@ glob.use('TYPE', 'HTTP');
 glob.use('ROOT', __dirname);
 glob.use('REQUEST', {
   'GET': {
-    '/login': path + '/login.json',
     '/bu/creditApplyInit': path + '/creditApplyInit.json',
     '/ta/creditManagerInit':path+'/creditManagerInit.json',
     '/ta/creditAccoDetails':path+'/creditAccoDetails.json',
     '/ta/rece/creditManagerInit':path+'/fp-creditManagerInit.json',
-    '/bu/creditApply':path+'/creditApply.json',
     '/ta/financingInfo': path + '/financingInfo.json',
     '/ta/financeList': path + '/financeList.json',
     '/ta/repayList': path + '/repayList.json',
@@ -29,6 +27,8 @@ glob.use('REQUEST', {
     '/ta/rece/creditAccoDetails': path + '/fp-creditAccoDetails.json'
   },
   'POST': {
+    '/v1/financeOrder/attach': path + '/orderAttach.json',
+    '/bu/financeOrder': path+'/financeOrder.json',
     '/bu/creditApply': path+'/creditApply.json'
   }
 });

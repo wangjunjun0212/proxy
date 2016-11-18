@@ -22,17 +22,11 @@
         "navigatepageNums":[
             1
         ],
-        "list":[
+        "list|5":[
             {
-                "createDate":"20160101",
+                "createDate":"@date",
                 "creditChangeTypeName":"初始授权",
                 "changeAmount":"+100",
-                "remainAmount":"1000"
-            },
-            {
-                "createDate":"20160102",
-                "creditChangeTypeName":"初始授权",
-                "changeAmount":"-50",
                 "remainAmount":"1000"
             }
         ]

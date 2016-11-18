@@ -4,7 +4,7 @@
     "data":{
         "receivers|4":[
             {
-                "customerId":"CS00001",
+                "customerId|+1":1,
                 "customerName":"中建八局",
                 "creditAccounts":[
                     {

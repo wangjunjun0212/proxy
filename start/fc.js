@@ -1,3 +1,4 @@
+
 var glob = require('../src/glob-proxy');
 var path = '../data/fc';
 
@@ -29,6 +30,7 @@ glob.use('REQUEST', {
     '/bu/orderFinanceInit': path + '/orderFinanceInit.json',
     '/ta/enteMembers': path + '/enteMembers.json',
     '/ta/rece/creditAccoDetails': path + '/fp-creditAccoDetails.json',
+    '/sys/menu': path + '/menu.json',
     '/cs/user': path + '/currentuser.json'
   },
   'POST': {

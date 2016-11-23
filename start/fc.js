@@ -14,7 +14,7 @@ glob.use('REQUEST', {
     '/ta/financingInfo': path + '/financingInfo.json',
     '/ta/financeList': path + '/financeList.json',
     '/ta/repayList': path + '/repayList.json',
-    '/ta/acocunts': path + '/acocunts.json',
+    '/ta/acounts': path + '/acocunts.json',
     '/ta/repayManager': path + '/repayManager.json',
     '/ta/finaAppManager': path + '/finaAppManager.json',
     '/ta/finacialInfo': path + '/finacialInfo.json',
@@ -31,7 +31,7 @@ glob.use('REQUEST', {
     '/ta/enteMembers': path + '/enteMembers.json',
     '/ta/rece/creditAccoDetails': path + '/fp-creditAccoDetails.json',
     '/sys/menu': path + '/menu.json',
-    '/cs/user': path + '/currentuser.json'
+    '/cs/getRole': path + '/currentuser.json'
   },
   'POST': {
     '/v1/financeOrder/attach': path + '/orderAttach.json',

@@ -2,13 +2,8 @@
   "respCode": "00000",
   "memo": "成功",
   "data": {
-    "userName": "https测试",
-    "roles|1": [{
-      "roleType": 70,
-      "roleTypeName": "投资方"
-    }, {
-      "roleType": 80,
-      "roleTypeName": "融资方"
-    }]
+    "customerId": "E000000187",
+    "realName": "@name",
+    "custBusinessType|1": [70, 80] 
   }
 }

@@ -2,8 +2,14 @@
   "respCode": "00000",
   "memo": "成功",
   "data": {
-    "customerId": "E000000187",
     "realName": "@name",
-    "custBusinessType|1": [70, 80] 
+    "roles": [{
+        "customerId": "E000007",
+        "custBusinessType|1": [70,80],
+        "credits": [
+          {"type": "0001", "isCredit": 0},
+          {"type": "0002", "isCredit": 1}
+        ]
+    }]
   }
 }

@@ -31,7 +31,8 @@ glob.use('REQUEST', {
     '/ta/enteMembers': path + '/enteMembers.json',
     '/ta/rece/creditAccoDetails': path + '/fp-creditAccoDetails.json',
     '/sys/menu': path + '/menu.json',
-    '/cs/getRole': path + '/currentuser.json'
+    '/cs/getRole': path + '/currentuser.json',
+    '/bu/financeDetail':path+'/financeDetail.json'
   },
   'POST': {
     '/v1/financeOrder/attach': path + '/orderAttach.json',

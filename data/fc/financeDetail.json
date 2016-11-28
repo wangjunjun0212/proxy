@@ -1,0 +1,53 @@
+{
+  "respCode": "0",
+  "memo": "操作成功",
+  "data": {
+    "financeContractName": "应收账款融资-20160802001",
+    "financeContractStatus": "0002",
+    "financeContractStatusName": "放款中",
+    "financeContractAmount": "200",
+    "financeContractRate": "6.5",
+    "financeContractDeadline": "30",
+    "financeContractDeadlineUnit": "天",
+    "repaymentMethodName": "到期还本付息",
+    "statuses": [{
+      "code": "0001",
+      "name": "申请融资"
+    }, {
+      "code": "0002",
+      "name": "放款中"
+    }, {
+      "code": "0003",
+      "name": "还款中"
+    }, {
+      "code": "0004",
+      "name": "还款完成"
+    }],
+    "coreEnterprise": {
+      "customerName": "****商务贸易有限公司",
+      "attachments": [{
+        "fileName": "1.jpg",
+        "filePath": ""
+      }, {
+        "fileName": "2.jpg",
+        "filePath": ""
+      }]
+    },
+    "attachments": [{
+      "fileName": "1.jpg",
+      "filePath": ""
+    }, {
+      "fileName": "2.jpg",
+      "filePath": ""
+    }],
+    "orders": [{
+      "orderNo": "000001",
+      "orderName": "煤炭",
+      "price": "250.00",
+      "quantity": "100",
+      "orderAmount": "25000.00",
+      "buyer": "中建八局",
+      "contractNo": "201611222047320"
+    }]
+  }
+}

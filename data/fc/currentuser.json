@@ -3,6 +3,8 @@
   "memo": "成功",
   "data": {
     "realName": "@name",
+    "status|1": [0,10,20,30,40],
+    "statusMsg": "出错信息在此",
     "roles": [{
         "customerId": "E000007",
         "custBusinessType|1": [70,80],

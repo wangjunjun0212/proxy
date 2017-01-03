@@ -1,5 +1,5 @@
 {
-  "respCode":"0",
-  "memo":"null",
+  "respCode|1": [0, 10, 20, 30, 40],
+  "memo":"重复申请提示",
   "data":"null"
 }

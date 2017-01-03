@@ -8,6 +8,7 @@ glob.use('ROOT', __dirname);
 glob.use('REQUEST', {
   'GET': {
     '/bu/creditApplyInit': path + '/creditApplyInit.json',
+    '/bu/creditApplyInit': path + '/financeTypeInit.json',
     '/ta/creditManagerInit':path+'/creditManagerInit.json',
     '/ta/creditAccoDetails':path+'/creditAccoDetails.json',
     '/ta/rece/creditManagerInit':path+'/fp-creditManagerInit.json',

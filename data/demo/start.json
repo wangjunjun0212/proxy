@@ -1,0 +1,15 @@
+{
+  "respCode":"0",
+  "memo": "message",
+  "data": {
+    "total": 300,
+    "users|10": [{
+      "id|+1": 1,
+      "firstName": "@FIRST",
+      "lastName": "@LAST",
+      "email":"@EMAIL",
+      "description": "@SENTENCE(4)",
+      "createTime": "@DATE @TIME"
+    }]
+  }
+}

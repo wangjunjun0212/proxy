@@ -9,6 +9,7 @@ var crypto = require('crypto');
 var util = require('./util');
 var shell = require('./shell');
 var log = require('./GuiderLog');
+var headerSetting = require('./header-setting');
 var assert = require('assert');
 shell.exit();
 
@@ -277,14 +278,7 @@ Guider.prototype.error = function() {
  *  处理成功的响应
  * */
 Guider.prototype.responseHeader = function() {
-  this.response.writeHead('200', {
-    'Access-Control-Allow-Headers': 'Content-Type, Accept, credit-token',
-    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE',
-    //'Access-Control-Allow-Origin': 'http://localhost:9000',
-    'Access-Control-Allow-Origin': '*',
-    //'Access-Control-Allow-Credentials': true,
-    'Access-Control-Max-Age': 30 * 24 * 3600
-  });
+  this.response.writeHead('200', headerSetting);
 }
 
 /**

@@ -1,0 +1,12 @@
+{
+  "respCode":"0",
+  "memo": "no error",
+  "data": {
+    "token": "@NATURAL",
+    "user": {
+      "id|+1": 1,
+      "userName": "@FIRST @LAST",
+      "role|1": ["developer", "administrator"]
+    }
+  }
+}

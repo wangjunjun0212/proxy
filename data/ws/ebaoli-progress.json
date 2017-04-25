@@ -1,0 +1,13 @@
+{
+  "respCode": "000000",
+  "memo": "memomock",
+  "data": {
+    "id": 19,
+    "companyCode": "companyCodemock",
+    "companyName": "@name",
+    "businessTypeCode": "businessTypeCodemock",
+    "businessTypeName": "@first",
+    "statusCode": "statusCodemock",
+    "statusName": "@last"
+  }
+}

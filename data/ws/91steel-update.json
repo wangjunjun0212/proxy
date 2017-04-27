@@ -10,7 +10,7 @@
       {
         "tradeTime": "@DATE('HH:mm:ss')",
         "cityCode": 1,
-        "cityName|1": ["上海", "宁夏", "山东", "兰州", "山西", "乐从", "南宁"],
+        "ctiyName|1": ["上海", "宁夏", "山东", "兰州", "山西", "乐从", "南宁"],
         "productTypeCode": 1,
         "productTypeName|1": ["螺纹管", "不锈钢", "冷轧板", "白铁皮"],
         "tradeAmount|100-500": 1,

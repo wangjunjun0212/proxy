@@ -2,7 +2,7 @@
   "respCode": "000000",
   "memo": "memomock",
   "data": {
-    "id": 19,
+    "id|1-1000": 1,
     "companyCode": "companyCodemock",
     "companyName": "@name",
     "businessTypeCode": "businessTypeCodemock",

@@ -2,7 +2,7 @@
   "respCode": "000000",
   "memo": "memomock",
   "data": {
-    "allUsersCoun|100-1000": 1,
+    "allUsersCount|100-1000": 1,
     "registeUserAnalysis|6": [
       {
         "id|+1": 6,
@@ -40,8 +40,8 @@
       }
     ],
     "riskmanageAnalysis": {
-      "riskmanageOntheway": 77,
-      "riskmanageOnthestore": 55
+      "riskmanageOntheway|50-2000": 1,
+      "riskmanageOnthestore|2000-2200": 1
     }
   }
 }

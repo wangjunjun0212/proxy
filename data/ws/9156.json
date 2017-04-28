@@ -1,0 +1,146 @@
+{
+  "respCode": "00000",
+  "memo": "成功",
+  "data": {
+    "sumByMonth": [
+      {
+        "monthName": "本月累计运输量",
+        "sum": 6335
+      },
+      {
+        "monthName": "累计运输量",
+        "sum": 821738
+      },
+      {
+        "monthName": "03月",
+        "sum": 140577
+      },
+      {
+        "monthName": "02月",
+        "sum": 124629
+      },
+      {
+        "monthName": "01月",
+        "sum": 120838
+      },
+      {
+        "monthName": "12月",
+        "sum": 116963
+      },
+      {
+        "monthName": "11月",
+        "sum": 97461
+      },
+      {
+        "monthName": "10月",
+        "sum": 77953
+      }
+    ],
+    "orderByAnalysis": [
+      {
+        "orderByName": "PC端",
+        "orderCount": 8880,
+        "percentage": "51.00%"
+      },
+      {
+        "orderByName": "移动端",
+        "orderCount": 8685,
+        "percentage": "49.00%"
+      }
+    ],
+    "userTypeAnalysis": [
+      {
+        "userTypeName": "老用户",
+        "orderCount": 8897,
+        "percentage": "51.00%"
+      },
+      {
+        "userTypeName": "新用户",
+        "orderCount": 8668,
+        "percentage": "49.00%"
+      }
+    ],
+    "areaAnalysis": [
+      {
+        "orderfrom": "江苏",
+        "sum": 113725
+      },
+      {
+        "orderfrom": "内蒙古",
+        "sum": 86808
+      },
+      {
+        "orderfrom": "甘肃",
+        "sum": 86137
+      },
+      {
+        "orderfrom": "山东",
+        "sum": 58995
+      },
+      {
+        "orderfrom": "广东",
+        "sum": 57966
+      }
+    ],
+    "channelAnalysis": [
+      {
+        "channelName": "物流电商",
+        "percentage": "21.00%",
+        "sum": 141320
+      },
+      {
+        "channelName": "钢铁电商",
+        "percentage": "20.00%",
+        "sum": 134819
+      },
+      {
+        "channelName": "钢厂",
+        "percentage": "20.00%",
+        "sum": 137842
+      },
+      {
+        "channelName": "水泥厂",
+        "percentage": "20.00%",
+        "sum": 136093
+      },
+      {
+        "channelName": "终端企业",
+        "percentage": "20.00%",
+        "sum": 134682
+      }
+    ],
+    "goodsTypeAnalysis": [
+      {
+        "goodsTypeName": "钢铁",
+        "percentage": "17.00%",
+        "sum": 115756
+      },
+      {
+        "goodsTypeName": "水泥",
+        "percentage": "16.00%",
+        "sum": 111093
+      },
+      {
+        "goodsTypeName": "石材",
+        "percentage": "17.00%",
+        "sum": 113021
+      },
+      {
+        "goodsTypeName": "煤炭",
+        "percentage": "17.00%",
+        "sum": 115120
+      },
+      {
+        "goodsTypeName": "矿石",
+        "percentage": "17.00%",
+        "sum": 114655
+      },
+      {
+        "goodsTypeName": "其它",
+        "percentage": "17.00%",
+        "sum": 115111
+      }
+    ],
+    "updateTime": "2017-04-27 15:39"
+  }
+}

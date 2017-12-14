@@ -1,4 +1,4 @@
-#RESTful 模拟
+# RESTful 模拟
 
 利用 mockjs 产生随机数来制造临时数据。所需环境：nodejs。mock 语法参考 <http://mockjs.com/>。
 

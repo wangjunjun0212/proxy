@@ -1,18 +1,17 @@
 {
-  "name": "glob-proxy",
-  "version": "0.0.7",
-  "description": "HTTP proxying",
+  "name": "mock-tool",
+  "version": "1.0.0",
+  "description": "API Mock Tools.",
   "main": "./src/glob-proxy.js",
-  "bin":{
-    "glob":"./bin/glob"
-  },
-  "directories": {
-    "test": "test"
+  "bin": {
+    "glob": "./bin/glob"
   },
   "dependencies": {
     "mockjs": "^1.0.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chalk": "^2.3.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,10 +22,10 @@
   "keywords": [
     "http-proxy"
   ],
-  "author": "wen",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/lcepy/glob-proxy/issues"
+  "engines": {
+    "node": ">= 7.0.0",
+    "npm": ">= 5.0.0"
   },
-  "homepage": "https://github.com/lcepy/glob-proxy"
+  "author": "Jim Yuan",
+  "license": "MIT"
 }

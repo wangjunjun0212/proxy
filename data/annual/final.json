@@ -1,8 +1,0 @@
-{
-  "data": {
-    "programs|8": [
-      {"name": "@FIRST", "count|30-90": 100, "id|+1":100, "img": "@IMG(100x100)"}
-    ],
-    "total": 42
-  }
-}

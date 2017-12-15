@@ -25,7 +25,7 @@ class Guider {
       const noOpts = this.request.method !== 'OPTIONS'
       noOpts && console.log(chalk.green('----- REQUEST SUCCESS: -----'))
       if (result) {
-        noOpts && console.log('URI:', chalk.gray(result.URL))
+        noOpts && console.log('URI:', chalk.black.bgWhite(result.URL))
         this.staticFileService(result)
       }
     }).listen(this.PORT)
@@ -72,12 +72,10 @@ class Guider {
   }
   // 处理静态文件
   staticFileService (result) {
-    fs.readFile(result.URL, 'utf-8', (err, tmpl) => {
-      const json = Mock.mock(JSON.parse(tmpl))
-      this.responseHeader()
-      this.responseBody(JSON.stringify(json, null, 4))
-    })
-    
+    const data = fs.readFileSync(result.URL, 'utf-8')
+    const json = Mock.mock(JSON.parse(data))
+    this.responseHeader()
+    this.responseBody(JSON.stringify(json, null, 4))
   }
 }
 

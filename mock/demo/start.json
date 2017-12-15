@@ -1,6 +1,6 @@
 {
   "respCode":"0",
-  "memo": "a message in response.",
+  "memo": "start data!",
   "data": {
     "total": 300,
     "users|10": [{

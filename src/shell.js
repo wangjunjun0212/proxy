@@ -1,8 +1,9 @@
+const chalk = require('chalk')
 const shell = module.exports = {}
 
-shell.exit = () => {
+shell.listener = () => {
   process.on('SIGINT', () => {
-    process.stdout.write('\n Bye-bye! \n')
+    process.stdout.write(chalk.yellow('\n Bye-bye! \n'))
     process.exit()
-  });
+  })
 }

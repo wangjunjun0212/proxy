@@ -2,10 +2,6 @@
   "name": "mock-tool",
   "version": "1.0.0",
   "description": "API Mock Tools.",
-  "main": "./src/glob-proxy.js",
-  "bin": {
-    "glob": "./bin/glob"
-  },
   "dependencies": {
     "mockjs": "^1.0.0"
   },
@@ -17,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/lcepy/glob-proxy.git"
+    "url": "git@github.com:czcg/proxy.git"
   },
   "keywords": [
     "http-proxy"

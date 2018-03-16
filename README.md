@@ -15,3 +15,7 @@
 ```
 node mock/<你的目录>
 ```
+或者在 `package.json` 的 `scripts` 目录中编辑你需要执行的目录，然后：
+```
+npm start
+```

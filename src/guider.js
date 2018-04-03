@@ -8,47 +8,40 @@ const header = require('./header')
 
 class Guider {
   // 类初始化
-  constructor ({PORT, REQUEST, ROOT}) {
+  constructor({ PORT, REQUEST, ROOT }) {
     this.PORT = PORT || '8084'
     this.ROOT = ROOT
     this.REQUEST = REQUEST
-    this.TYPE = 'HTTP'
-    this.RESULT = {}
   }
   // 启动代理服务
-  start () {
-    http.createServer((request, response) => {
-      this.request = request
-      this.response = response
+  start() {
+    http.createServer((req, res) => {
+      // 获取真实本地文件目录地址
+      const method = req.method
+      const name = url.parse(req.url, true).pathname
+      const route = this.REQUEST[method][name]
+      if (!route) {
+        res.end()
+        return
+      }
+      const fileUrl = path.join(this.ROOT, route)
 
-      this.reqRealUrl()
-      this.respStaticFile()
+      // 处理静态文件并输出
+      const file = fs.readFileSync(fileUrl, 'utf-8')
+      const json = Mock.mock(JSON.parse(file))
+      res.writeHead('200', header)
+      res.end(JSON.stringify(json, null, 4))
 
       // response 提示信息
-      if (request.method !== 'OPTIONS') {
+      if (req.method !== 'OPTIONS') {
         console.log(chalk.green('----- REQUEST SUCCESS: -----'))
-        console.log('URI:', chalk.black.bgWhite(this.RESULT.url), '\n')
+        console.log(
+          'URI:',
+          chalk.black.bgWhite(fileUrl),
+          chalk.yellow(`(${method})`), '\n'
+        )
       }
     }).listen(this.PORT)
-  }
-  // 获取真实本地文件目录地址
-  reqRealUrl () {
-    const request = this.request
-    const result = this.RESULT
-
-    Object.assign(result, {
-      name: url.parse(request.url, true).pathname,
-      method: request.headers['access-control-request-method'] || request.method
-    })
-    Object.assign(result, {
-      url: path.join(this.ROOT, this.REQUEST[result.method][result.name])
-    })
-  }
-  // 处理静态文件并输出
-  respStaticFile () {
-    const json = Mock.mock(JSON.parse(fs.readFileSync(this.RESULT.url, 'utf-8')))
-    this.response.writeHead('200', header)
-    this.response.end(JSON.stringify(json, null, 4))
   }
 }
 
